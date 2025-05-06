@@ -107,7 +107,7 @@ console.log(characters2);
 let  least = characters.some(character => character.eye_color === 'black');
 console.log(least ); 
 
-const least1 = characters.some(character => character.height > 177);
+let least1 = characters.some(character => character.height > 177);
 console.log(least1 ); 
 
 //lab3
@@ -184,7 +184,26 @@ console.log(every3);
 let some1 = movies.some(movie => movie.rating < 8.5);
 console.log(some1);
 
+//lab4
+function name (num1 , num2){
+  return num1 + num2
+}
+console.log(name (7 , 4))
 
+function name1 (num1 , num2){
+  return num1 - num2
+}
+console.log(name1 (7 , 4))
+
+function name2 (num1 , num2){
+  return num1 * num2
+}
+console.log(name2 (7 , 4))
+
+function name3 (num1 , num2){
+  return num1 / num2
+}
+console.log(name3 (7 , 4))
 
 
 
